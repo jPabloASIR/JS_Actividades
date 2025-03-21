@@ -1,7 +1,7 @@
 ## Actividades - JS
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1](/Actividades/Ejercicio1/Ejercicio1.html) | Ejercicio
+[Ejercicio1](/Actividades/js01/js01.html) | Ejercicio
 [Ejercicio2](/Actividades/Ejercicio2/Ejercicio2.html) | Ejercicio
 [Ejercicio3](/Actividades/Ejercicio3/Ejercicio3.html) | Ejercicio
 [Ejercicio4](/Actividades/Ejercicio4/Ejercicio4.html) | Ejercicio
