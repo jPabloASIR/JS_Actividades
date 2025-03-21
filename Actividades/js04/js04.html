@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mostrar Variables desde Entradas Usando innerHTML</h2>
+
+<p>Crea una variable, asígnale un valor y muéstralo:</p>
+
+<p>Ingresa un número:</p>
+<input type="number" id="numInput">
+<button onclick="displayNumber()">Mostrar Número</button>
+<p id="numOutput"></p>
+
+<p>Ingresa tu nombre:</p>
+<input type="text" id="textInput">
+<button onclick="displayText()">Mostrar Nombre</button>
+<p id="textOutput"></p>
+
+<p>Ingresa tu edad:</p>
+<input type="number" id="ageInput">
+<p>Ingresa tu ciudad:</p>
+<input type="text" id="cityInput">
+<button onclick="displayCombined()">Mostrar Edad y Ciudad</button>
+<p id="combinedOutput"></p>
+
+<script>
+
+function displayNumber() {
+    var num = document.getElementById("numInput").value;
+    document.getElementById("numOutput").innerHTML = "El número que ingresaste es: " + num;
+}
+
+function displayText() {
+    var name = document.getElementById("textInput").value;
+    document.getElementById("textOutput").innerHTML = "¡Hola, " + name + "!";
+}
+
+function displayCombined() {
+    var age = document.getElementById("ageInput").value;
+    var city = document.getElementById("cityInput").value;
+    document.getElementById("combinedOutput").innerHTML = "Tienes " + age + " años y vives en " + city + ".";
+}
+</script>
+
+</body>
+</html>
