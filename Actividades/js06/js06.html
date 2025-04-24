@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frases Motivadoras</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f0f4f8;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .contenedor {
+      text-align: center;
+    }
+
+    .frase {
+      font-size: 2.5rem;
+      margin-top: 30px;
+      color: #333;
+      min-height: 100px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <button onclick="mostrarFrase()">Mostrar frase motivadora</button>
+    <div class="frase" id="fraseMotivadora"></div>
+  </div>
+
+  <script>
+    const frases = [
+      "¡Tú puedes con todo!",
+      "El éxito es la suma de pequeños esfuerzos repetidos cada día.",
+      "Cree en ti y todo será posible.",
+      "Nunca es tarde para ser lo que podrías haber sido.",
+      "El único límite es el que tú te pongas.",
+      "Hazlo con pasión o no lo hagas.",
+      "Cada día es una nueva oportunidad para brillar."
+    ];
+
+    function mostrarFrase() {
+      const frase = frases[Math.floor(Math.random() * frases.length)];
+      document.getElementById("fraseMotivadora").textContent = frase;
+    }
+  </script>
+</body>
+</html>
