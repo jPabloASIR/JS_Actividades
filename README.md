@@ -10,4 +10,4 @@ Ejercicio | Descripción
 [Ejercicio7]() | Ejercicio
 [Ejercicio8]() | Ejercicio
 [Ejercicio9](/Actividades/js09/js09.html) | Ejercicio
-[Ejercicio10]() | Ejercicio
+[Ejercicio10](/Actividades/js10/js10.html) | Ejercicio
