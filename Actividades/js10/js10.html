@@ -1,1 +1,135 @@
+<!-- A -->
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+function mayor(n1,n2) {
+    var m;
+    if (n1 > n2)
+        m = n1;
+    else
+        m = n2;
+    return m;
+}
+ 
+function muestraMayor() {
+    var n1 = document.getElementById('n1').value;
+    var n2 = document.getElementById('n2').value;
+    document.getElementById("res").innerHTML = mayor(n1,n2);
+}
+</script>
 
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p>Muestra el maryor de dos números</p><br>
+    <label for="n1">Número 1 : </label>
+    <input type="text" id="n1" name="n1"> <br>
+    <label for="n1">Número 2 : </label>
+    <input type="text" id="n2" name="n2"> <br>
+    <button type="button" onclick="muestraMayor()">Mostrar Mayor</button><br>
+    <p id="res"></p> 
+</body>
+</html>
+
+
+
+
+
+<!-- B -->
+
+<!-- C -->
+<!DOCTYPE html>
+<html>
+<script>
+function isVowel(x) {
+  return x == "A" || x == "E" || x == "I" || x == "O" || x == "U" || x == "a" || x == "e" || x == "i" || x == "o" || x == "u";
+}
+ 
+function mostrar() {
+    c = document.getElementById("text").value;
+    if (c.length > 1)
+        document.getElementById("res").innerHTML = "Debe introducir un carácter solo";
+    else if (isVowel(c))
+        document.getElementById("res").innerHTML = "Es Vocal";
+    else
+        document.getElementById("res").innerHTML = "NO Es Vocal";  
+}
+</script>
+ 
+<body>
+<p>Introduzca un carácter y pulse el botón para comprobar si es vocal</p><br>
+<input type="text" id="text" name="text"><br>
+<button onclick="mostrar()">Pulse</button><br>
+<p id="res"></p>
+</body>
+</html>
+
+
+<!-- D -->
+
+<!-- E -->
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+function sum() {
+    var str = document.getElementById('su').value;
+    var n = str.split(',');
+    var suma = 0;
+    for(i = 0; i < n.length; i++) {
+        suma  += parseInt(n[i]);
+    } 
+    document.getElementById("res").innerHTML = suma;
+}
+
+
+function mul() {
+    var str = document.getElementById('su').value;
+    var n = str.split(',');
+    var mult = 1;
+    for(i = 0; i < n.length; i++) {
+        mult  *= parseInt(n[i]);
+    } 
+    document.getElementById("res").innerHTML = mult;
+}
+</script>
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> multiplica y suma tus numeros completamente gratis:</p>
+    <label for="su">Lista de número separados por coma : </label>
+    <input type="text" id="su" name="su"> <br>
+    <button type="button" onclick="sum()">sumar</button>
+    <button type="button" onclick="mul()">multiplicar</button>
+    <p id="res"></p> 
+</body>
+</html>
+
+
+
+
+
+<!-- F -->
+
+
+
+
+<!-- G -->
+
+
+
+
+<!-- H -->
+
+
+
+
+<!-- I -->
+
+
+
+
+<!-- J -->
