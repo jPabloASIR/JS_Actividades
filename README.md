@@ -9,5 +9,5 @@ Ejercicio | Descripción
 [Ejercicio6]() | Ejercicio
 [Ejercicio7]() | Ejercicio
 [Ejercicio8]() | Ejercicio
-[Ejercicio9]() | Ejercicio
+[Ejercicio9](/Actividades/js09/js09.html) | Ejercicio
 [Ejercicio10]() | Ejercicio
