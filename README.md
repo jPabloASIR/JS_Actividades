@@ -8,6 +8,6 @@ Ejercicio | Descripción
 [Ejercicio5](/Actividades/js05/js05.html) | Ejercicio
 [Ejercicio6](/Actividades/js06/js06.html) | Ejercicio
 [Ejercicio7]() | Ejercicio
-[Ejercicio8]() | Ejercicio
+[Ejercicio8](/Actividades/js08/js08.html) | Ejercicio
 [Ejercicio9](/Actividades/js09/js09.html) | Ejercicio
 [Ejercicio10](/Actividades/js10/js10.html) | Ejercicio
